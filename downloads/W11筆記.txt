@@ -1,0 +1,63 @@
+pull requests 拉回請求
+
+Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
+
+1. Fork 該倉儲到自己的帳號下
+2. clone the forked repo 到近端
+3. 在近端改版後, git add, commit -m and push 到自己 forked 倉儲
+4. 建立 pull requests
+
+mkdir 建立目錄指令, make directory
+c: 切換到 c 槽
+cd tmp 更換目錄到 tmp, change directory
+git init 啟始一個 git repository
+
+initialize 啟始化
+
+hint 提示
+default 內建
+branch 分支
+trunk 主幹
+
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint:   git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint:   git branch -m <name>
+
+假如希望之後利用 git init 建立的倉儲都以 main 為主要分支, 可以將設定寫入 .gitconfig
+
+git config --global init.defaultBranch main
+
+希望在 Windows 搜尋目錄下的關鍵字,
+
+可以安裝 grepwin
+
+https://github.com/stefankueng/grepWin
+
+利用 echo 將字串寫入  README.md
+
+echo "# w11_1a" >> README.md
+
+Markdown 一種適合閱讀的標註語法,可用工具轉為 html 或 LaTeX
+
+LaTeX
+
+https://markdown.tw/
+
+git add README.md 在 git 操作流程稱為 staged (上台)
+
+git commit -m "first commit" 表示 commit (提交) 版本, 並且透過字串說明改版緣由
+
+git branch -M main 表示要將 main 作為主分支
+
+git remote add origin https://github.com/mdecourse/w11_1a.git
+
+以 origin 為代號, 將 url 設為遠端倉儲網際連結位址
+
+git push -u origin main 表示要將 upstream (上游) 設為 origin 連結中的分支, 其名稱為 main

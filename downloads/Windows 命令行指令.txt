@@ -1,0 +1,11 @@
+https://blog.csdn.net/zhrb/article/details/119192010
+cd     開啟
+md     增新資料夾
+cd ..  逐步退出       
+           . 目录指的是当前目录。如果你输入dir . 那么与输入dir是一样的，都是显示当前目录下的所有目录与文件。
+           ..目录指的是当前目录的父目录**(上一级目录)。如果你在这里输入dir .. 那么显示的是C:\Users目录中的内容。如下图所示
+cd /   退到根目錄
+D：  切換成D槽
+dir可搜索指定文件。格式是：dir 你要查找的文件名。
+copy, 拷贝文件命令。格式：copy 路径名\源文件名 路径名\目的文件名。例如，命令copy c:\test.txt d:\temp\Hello.java指的是将c盘下的test.txt文件复  制到d:\temp目录下并重命名为Hello.java。
+  而上面的copy con HelloWorld.java指的是将键盘输入的内容拷贝成HelloWorld.java文件。
