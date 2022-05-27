@@ -5,7 +5,7 @@ cms
 pip install pyopenssl
 127.0.0.1:9448
 login輸入 admin
-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
+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
 acp "initial add"  //第一次
 acp "41023125"
 
